@@ -1,23 +1,23 @@
 *{
-    padding: 0px;
-       margin: 0px;
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0px;
+   margin: 0px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .player1{
-    width: 100;
-      height: 45vh;
+  width: 100;
+     height: 45vh;
        background-color: white;
-              display: flex;
-       justify-content: center;
-       align-items: center;
+         display: flex;
+            justify-content: center;
+              align-items: center;
 }
 .container{
     width: 100%;
       height: 10vh;
         background-color: green;
-               display: flex;
-       justify-content: center;
-       align-items: center;
+          display: flex;
+            justify-content: center;
+              align-items: center;
 }
 .button{
   font-size: 2rem;
@@ -26,10 +26,10 @@
      width: 100%;
         height: 45vh;
           background-color: black;
-                 display: flex;
-       justify-content: center;
-       align-items: center;
-       color: white;
+            display: flex;
+              justify-content: center;
+               align-items: center;
+                  color: white;
 
 }
 p {
