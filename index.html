@@ -8,13 +8,29 @@
 </head>
 <body>
     <div class="player1" >
-        <p class="timerone">5:00</p>
+        <p class="timerone">2:00</p>
+
     </div>
     <div class="container">
         <button class="button" onclick="pause()">⏸️</button>
+        <button class="reset_btn" onclick="reset()">🔄</button>
+        <button class="start_btn" onclick="start()">start</button>
+     <select class="time_control">
+        <option value="60">1 Minute</option>
+        <option value="120" selected>2 Minutes</option>
+        <option value="300">5 Minutes</option>
+        <option value="600">10 Minutes</option>
+     </select>
+     <select class="time_increment">
+        <option value="0">0 sec</option>
+        <option value="2" >2 sec</option>
+        <option value="5">5 sec</option>
+        <option value="10">10 sec</option>
+    </select>    
     </div>
     <div class="player2">
-        <p class="timertwo">5:00</p>  
+        <p class="timertwo">2:00</p>
+        
     </div>
 
     <script src="script.js"></script>
