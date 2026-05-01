@@ -151,19 +151,18 @@ function pause(){
   }
   // Resume Player A
   else if(action == 1){
-    action = 0;
     a = 3;
-    btn.innerText = "⏸️";
     x=1;
+        action = 0;
+            btn.innerText = "⏸️";
     player_a();
-    a = 3;
   }
   // Resume Player B
   else if(action == 2){
     a = 3;
     x=1;
-    action = 0;
-    btn.innerText = "⏸️";
+         action = 0;
+             btn.innerText = "⏸️";
     player_b();
   }
 }
